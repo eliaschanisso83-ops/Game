@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ashen Loop</string>
+    <string name="hud_cycle">CICLO %1$d</string>
+    <string name="hud_shadow_none">SOMBRA: vazia</string>
+    <string name="hud_shadow_ready">SOMBRA: gravada (%1$s s)</string>
+    <string name="hud_charge">CARGA: %1$d%%</string>
+    <string name="hud_door_open">PORTA: aberta</string>
+    <string name="hud_door_closed">PORTA: fechada</string>
+    <string name="btn_end_cycle">TERMINAR CICLO</string>
+    <string name="btn_interact">INTERAGIR</string>
+    <string name="btn_restart">REINICIAR</string>
+    <string name="btn_start">INICIAR</string>
+    <string name="title">ASHEN LOOP</string>
+    <string name="subtitle">Grava um ciclo. Repete-o como sombra. Chega a saida.</string>
+    <string name="msg_stand_plate">So a sombra carrega o mecanismo. Termina o ciclo para a gravar.</string>
+    <string name="msg_shadow_charging">A sombra esta a carregar o mecanismo.</string>
+    <string name="msg_interact_hint">Aproxima-te do mecanismo e carrega em INTERAGIR.</string>
+    <string name="msg_cycle_complete">CICLO GRAVADO</string>
+    <string name="msg_level_complete">NIVEL CONCLUIDO</string>
+    <string name="msg_paused">PAUSA</string>
+</resources>

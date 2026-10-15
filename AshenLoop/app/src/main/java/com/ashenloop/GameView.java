@@ -78,10 +78,10 @@ public final class GameView extends SurfaceView implements SurfaceHolder.Callbac
             int guard = 0;
             while (accumulator >= GameConfig.FIXED_DT && guard < 8) {
                 world.update(GameConfig.FIXED_DT, input);
+                input.clearEdges();
                 accumulator -= GameConfig.FIXED_DT;
                 guard++;
             }
-            input.clearEdges();
             drawFrame();
             try {
                 Thread.sleep(2L);
